@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) UILabel *label;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:self.label];
 }
 
 
@@ -25,5 +28,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (UILabel *)label
+{
+    if (!_label) {
+        _label = [UILabel new];
+        _label.frame = CGRectMake(50, 50, 200, 30);
+        _label.text = @"helloWorld!";
+    }
+    return _label;
+}
 
 @end

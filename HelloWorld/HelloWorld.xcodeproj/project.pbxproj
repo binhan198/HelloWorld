@@ -160,6 +160,7 @@
 				TargetAttributes = {
 					11F267821DDAB5B500120E0D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 52LNZQCE8K;
 						ProvisioningStyle = Automatic;
 					};
 					11F2679B1DDAB5B600120E0D = {
@@ -349,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52LNZQCE8K;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binhan198.HelloWorld;
@@ -360,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52LNZQCE8K;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binhan198.HelloWorld;
@@ -410,6 +413,7 @@
 				11F267A71DDAB5B600120E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11F267A81DDAB5B600120E0D /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +422,7 @@
 				11F267AA1DDAB5B600120E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
