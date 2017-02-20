@@ -27,7 +27,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+        
 - (UILabel *)label
 {
     if (!_label) {
