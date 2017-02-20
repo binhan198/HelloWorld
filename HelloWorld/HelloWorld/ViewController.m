@@ -27,6 +27,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 //这只是一个测试
 - (UILabel *)label
 {
